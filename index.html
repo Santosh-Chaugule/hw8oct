@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bouncing Ball Animation</title>
+    <style>
+      .ball1 {
+        width: 150px;
+        height: 150px;
+        display: inline-block;
+        background: red;
+        border-radius: 50%;
+        animation-name: ball1st;
+        animation-duration: 0.8s;
+        animation-timing-function: ease-in;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      @keyframes ball1st {
+        from {
+          transform: translate(0px, 0px);
+        }
+        to {
+          transform: translate(0px, 550px);
+        }
+      }
+      .ball2 {
+        background: green;
+        animation-delay: 0.2s;
+      }
+      .ball3 {
+        background: blue;
+        animation-delay: 0.4s;
+      }
+      .ball4 {
+        background: yellow;
+        animation-delay: 0.6s;
+      }
+      .ball5 {
+        background: darkmagenta;
+        animation-delay: 0.8s;
+      }
+      .ball6 {
+        background: darkorange;
+        animation-delay: 1s;
+      }
+      .ball7 {
+        background: darkred;
+        animation-delay: 1.2s;
+      }
+      .ball8 {
+        background: greenyellow;
+        animation-delay: 1.4s;
+      }
+      .ball9 {
+        background: gold;
+        animation-delay: 1.6s;
+      }
+      .ball10 {
+        background: palegreen;
+        animation-delay: 1.8s;
+      }
+      .ball11 {
+        background: palevioletred;
+        animation-delay: 2s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="ball1"></div>
+    <div class="ball1 ball2"></div>
+    <div class="ball1 ball3"></div>
+    <div class="ball1 ball4"></div>
+    <div class="ball1 ball5"></div>
+    <div class="ball1 ball6"></div>
+    <div class="ball1 ball7"></div>
+    <div class="ball1 ball8"></div>
+    <div class="ball1 ball9"></div>
+    <div class="ball1 ball10"></div>
+    <div class="ball1 ball11"></div>
+  </body>
+</html>
